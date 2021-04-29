@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(209, 146, 146), rgb(242, 222, 109));
+    font-family: monospace;
+    font-size: large;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
