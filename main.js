@@ -250,16 +250,16 @@ function grapify() {
     namen = [];
     substrings = [];
 
-    counter = 0
+    //counter = 0
     currentTest = punchline;
 
     // Zoek langste substring en plaats m in plaatsen
     while (punchline != "") {
         counter++
 
-        if (counter > 10) {console.log("exiting..."); break;} //infinite loop protection
+        //if (counter > 10) {console.log("exiting..."); break;} //infinite loop protection
 
-        for (let p of plaatsen) {
+        for (let p of plaatsen) { //holy shit this is inefficient
             currentTest = punchline;
 
             p_subs = []
