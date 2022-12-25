@@ -250,7 +250,7 @@ function grapify() {
     namen = [];
     substrings = [];
 
-    //counter = 0
+    counter = 0
     currentTest = punchline;
 
     // Zoek langste substring en plaats m in plaatsen
